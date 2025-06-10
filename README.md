@@ -78,7 +78,7 @@ timeConverter.js: Contém funções utilitárias para conversão de unidades de 
 ## Como Executar
 - Clone o repositório:
 ```bash
-git clone <URL_DO_REPOSITÓRIO>
+git clone git@github.com:BrunoHoinacki/starship-calculator.git
 ```
 
 - Instale as dependências:
