@@ -19,8 +19,8 @@ async function getAllStarships() {
             allStarships = allStarships.concat(response.data.results);
             nextUrl = response.data.next;
         } catch (error) {
-            console.error(`Erro ao buscar naves espaciais de ${nextUrl}:`, error.message);
-            throw new Error('Falha ao recuperar dados de naves espaciais da SWAPI.');
+            console.error(`Error fetching spaceships from ${nextUrl}:`, error.message);
+            throw new Error('Failed to retrieve spacecraft data from SWAPI.');
         }
     }
     return allStarships;
