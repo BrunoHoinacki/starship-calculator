@@ -1,0 +1,5 @@
+# Ignorar arquivos de bloqueio do npm
+package-lock.json
+
+# Ignorar diretório de módulos do Node.js
+node_modules/
